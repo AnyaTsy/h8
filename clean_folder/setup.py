@@ -7,5 +7,5 @@ setup(
     author='Tsyvis Anna',
     author_email='cyvisanna@gmail.com',
     packages=find_namespace_packages(),
-    entry_points={'console_scripts':['clean-folder=clean_folder.main:main']}
+    entry_points={'console_scripts':['clean-folder=clean_folder.clean:main']}
    )
